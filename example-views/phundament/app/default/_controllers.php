@@ -20,7 +20,7 @@ $favourites = ($favourites) ?: [];
                     'type'        => $controller['color'],
                     'text'        => $controller['label'],
                     'footer'      => 'Manage',
-                    'footer_link' => $controller['route'],
+                    'footer_link' => $controller['url'],
                     'icon'        => 'fa fa-' . $controller['icon']
                 ]
             );
